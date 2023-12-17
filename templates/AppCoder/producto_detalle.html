@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block cambio %}
+    <p> El nomnbre del producto es: <b> {{product.name}}</b></p>
+
+    <p>
+        <a href=" {% url 'ProductList' %}"> Listas Product</a>
+    </p>
+{% endblock %}
